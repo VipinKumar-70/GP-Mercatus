@@ -12,7 +12,7 @@ import { cn } from '../lib/utils';
 
 const About = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-24">
 
       {/* ── HERO ── */}
       <section className="bg-brand-navy py-32 px-6 relative overflow-hidden" aria-label="About hero">

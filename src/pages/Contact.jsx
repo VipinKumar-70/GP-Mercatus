@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="pt-20">
+    <div className="pt-24">
 
       {/* ── HERO ── */}
       <section className="bg-brand-yellow py-32 px-6 relative overflow-hidden" aria-label="Contact hero">
@@ -131,8 +131,8 @@ const Contact = () => {
                 <div className="flex gap-4 flex-wrap">
                   {[
                     { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/gpmercatus' },
-                    { icon: Facebook, label: 'Facebook', href: 'https://www.facebook.com/gpmercatus' },
-                    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/company/gpmercatus' },
+                    { icon: Facebook, label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61577682877361' },
+                    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/company/gp-mercatus/' },
                   ].map((s) => (
                     <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={`GP Mercatus on ${s.label}`}
                       className="flex items-center gap-3 px-5 py-3 bg-brand-cream-dark rounded-2xl text-brand-navy font-black hover:bg-brand-yellow transition-all group text-sm"
@@ -142,7 +142,7 @@ const Contact = () => {
                     </a>
                   ))}
                 </div>
-              </div>
+              </div> 
             </div>
 
             {/* Right column – form */}

@@ -93,7 +93,7 @@ const tiers = [
 
 const IdealAudience = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-24">
 
       {/* ── HERO ── */}
       <section className="bg-brand-cream-dark py-32 px-6 relative overflow-hidden text-center" aria-label="Who we serve hero">
