@@ -230,8 +230,8 @@ const About = () => {
           <div className="w-24 h-24 bg-brand-yellow rounded-full mx-auto flex items-center justify-center text-brand-navy">
             <Eye size={44} />
           </div>
-          <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none">
-            OUR VISION IS TO<br />BE THE GOLD<br /><span className="text-brand-yellow">STANDARD.</span>
+          <h2 className="text-5xl md:text-7xl text-brand-yellow font-black uppercase tracking-tighter leading-none">
+            OUR VISION IS TO<br />BE THE GOLD<br />STANDARD.
           </h2>
           <p className="text-xl font-medium text-white/50 max-w-2xl mx-auto leading-relaxed">
             We are building a global agency where brand growth is not a gamble — but a predictable consequence of superior strategy, creative execution, and relentless optimisation.
@@ -240,7 +240,7 @@ const About = () => {
             <Button variant="yellow" size="xl">
               <Link to="/contact">Start Your Growth Journey</Link>
             </Button>
-            <Button variant="outline" size="xl">
+            <Button variant="yellow" size="xl">
               <Link to="/services">View Our Services</Link>
             </Button>
           </div>
