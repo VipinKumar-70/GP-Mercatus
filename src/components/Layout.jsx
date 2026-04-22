@@ -1,17 +1,20 @@
-import React, { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import Navbar from './Navbar';
-import Footer from './Footer';
-import { MessageCircle } from 'lucide-react';
-import { motion } from 'motion/react';
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import { FaWhatsapp } from "react-icons/fa";
+import { motion } from "motion/react";
 
 const Layout = ({ children }) => {
   const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    if (typeof window.gtag === 'function') {
-      window.gtag('event', 'page_view', { page_path: pathname, page_location: window.location.href });
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "page_view", {
+        page_path: pathname,
+        page_location: window.location.href,
+      });
     }
   }, [pathname]);
 
@@ -35,7 +38,7 @@ const Layout = ({ children }) => {
           Chat with us!
         </div>
         <div className="bg-green-500 text-white p-5 rounded-[1.5rem] shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 relative group-hover:shadow-green-500/30">
-          <MessageCircle size={28} fill="white" />
+          <FaWhatsapp size={28} />
           <div className="absolute top-0 right-0 w-4 h-4 bg-red-500 rounded-full border-4 border-white animate-pulse"></div>
         </div>
       </motion.a>
