@@ -129,7 +129,7 @@ const Home = () => {
               className="flex flex-wrap gap-4 pt-4"
             >
               <Button size="xl" variant="yellow" className="group">
-                <Link to="/contact" className="flex items-center gap-2">
+                <Link to="/contact#contactform" className="flex items-center gap-2">
                   Start a Free Consultation{" "}
                   <ArrowRight className="group-hover:translate-x-2 transition-transform" />
                 </Link>
@@ -590,7 +590,7 @@ const Home = () => {
                 variant="primary"
                 className="shadow-2xl shadow-brand-navy/30"
               >
-                <Link to="/contact">Get Free Consultation</Link>
+                <Link to="/contact#contactform">Get Free Consultation</Link>
               </Button>
               <Button
                 size="xl"

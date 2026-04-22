@@ -51,7 +51,7 @@ const About = () => {
               transition={{ delay: 0.4 }}
             >
               <Button variant="yellow" size="lg" className="group">
-                <Link to="/contact" className="flex items-center gap-2">
+                <Link to="/contact#contactform" className="flex items-center gap-2">
                   Work With Us <ArrowRight className="group-hover:translate-x-2 transition-transform" />
                 </Link>
               </Button>
