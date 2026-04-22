@@ -312,10 +312,10 @@ const Services = () => {
                 <div className="text-8xl font-black text-white/5 absolute -top-4 -right-4 group-hover:text-brand-yellow/10 transition-colors">
                   {step.num}
                 </div>
-                <h3 className="text-xl font-black uppercase tracking-tighter leading-none relative z-10">
+                <h3 className="text-xl font-black text-yellow-400 uppercase tracking-tighter leading-none relative z-10">
                   {step.title}
                 </h3>
-                <p className="text-white/40 font-medium leading-relaxed relative z-10 text-sm">
+                <p className="text-white/40 font-medium leading-relaxed relative z-10 text-base">
                   {step.desc}
                 </p>
                 <div className="w-10 h-10 rounded-2xl bg-brand-yellow flex items-center justify-center text-brand-navy group-hover:scale-110 transition-transform">

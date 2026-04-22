@@ -313,10 +313,10 @@ const Home = () => {
                 className="p-6 bg-white rounded-2xl border border-brand-navy/5 shadow-sm hover:shadow-md transition-shadow"
               >
                 <item.icon size={22} className="text-brand-yellow mb-3" />
-                <p className="font-black text-sm text-brand-navy mb-1">
+                <p className="font-black text-xl text-brand-navy mb-1">
                   {item.label}
                 </p>
-                <p className="text-xs text-brand-navy/50 leading-relaxed">
+                <p className="text-sm text-brand-navy/50 leading-relaxed">
                   {item.desc}
                 </p>
               </div>
@@ -435,8 +435,8 @@ const Home = () => {
                     className="text-brand-yellow mt-0.5 flex-shrink-0"
                   />
                   <div>
-                    <p className="font-black text-sm text-white">{pt.title}</p>
-                    <p className="text-xs text-white/40 mt-1 leading-relaxed">
+                    <p className="font-black text-xl text-white">{pt.title}</p>
+                    <p className="text-sm text-white/40 mt-1 leading-relaxed">
                       {pt.desc}
                     </p>
                   </div>
@@ -473,10 +473,10 @@ const Home = () => {
                     {String(i + 1).padStart(2, "0")}
                   </div>
                   <div>
-                    <p className="font-black text-sm text-white">
+                    <p className="font-black text-xl text-white">
                       {item.label}
                     </p>
-                    <p className="text-[11px] text-white/40 mt-0.5">
+                    <p className="text-sm text-white/40 mt-0.5">
                       {item.sub}
                     </p>
                   </div>
@@ -549,10 +549,10 @@ const Home = () => {
                         .join("")}
                     </div>
                     <div>
-                      <p className="font-black text-brand-navy text-sm">
+                      <p className="font-black text-brand-navy text-[16px]">
                         {t.name}
                       </p>
-                      <p className="text-[10px] font-black uppercase text-brand-navy/40 tracking-widest">
+                      <p className="text-[11px] font-black uppercase text-brand-navy/40 tracking-widest">
                         {t.role}
                       </p>
                     </div>

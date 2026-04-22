@@ -10,7 +10,7 @@ import {
   Facebook,
   ArrowRight,
 } from "lucide-react";
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -105,19 +105,19 @@ const Footer = () => {
             </h4>
             <ul className="space-y-4">
               {[
-                "Performance Marketing",
-                "Search Engine Optimisation",
-                "Social Media Marketing",
-                "Creative Strategy & Design",
-                "Content Marketing",
-                "Web Analytics & Reporting",
+                { label: "Performance Marketing", hash: "performance" },
+                { label: "Search Engine Optimisation", hash: "seo" },
+                { label: "Social Media Marketing", hash: "social" },
+                { label: "Creative Strategy & Design", hash: "creative" },
+                { label: "Content Marketing", hash: "content" },
+                { label: "Web Analytics & Reporting", hash: "analytics" },
               ].map((service) => (
-                <li key={service}>
+                <li key={service.label}>
                   <Link
-                    to="/services"
+                    to={`/services#${service.hash}`}
                     className="text-base font-bold text-white/60 hover:text-white transition-colors"
                   >
-                    {service}
+                    {service.label}
                   </Link>
                 </li>
               ))}

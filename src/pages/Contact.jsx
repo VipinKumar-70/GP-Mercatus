@@ -16,6 +16,8 @@ import {
 } from "lucide-react";
 import { Button } from "../components/ui/Button";
 import { Card } from "../components/ui/Card";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 // ── EmailJS config ──────────────────────────────────────────────
 const EMAILJS_SERVICE_ID = "service_6egvh49";
@@ -52,6 +54,7 @@ const Contact = () => {
     message: "",
   });
   const [status, setStatus] = useState("idle");
+  const location = useLocation();
 
   const handleChange = (e) =>
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -91,6 +94,17 @@ const Contact = () => {
       setStatus("error");
     }
   };
+
+  useEffect(() => {
+    if (location.hash) {
+      setTimeout(() => {
+        const el = document.getElementById(location.hash.replace("#", ""));
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    }
+  }, [location]);
 
   return (
     <div className="pt-24">
@@ -132,6 +146,7 @@ const Contact = () => {
 
       {/* ── CONTACT HUB ── */}
       <section
+        id="contactform"
         className="py-32 bg-white px-6"
         aria-label="Contact form and details"
       >

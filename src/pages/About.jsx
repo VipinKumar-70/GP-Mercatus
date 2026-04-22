@@ -96,11 +96,11 @@ const About = () => {
             <div className="grid grid-cols-2 gap-6 pt-6 border-t border-brand-navy/5">
               <div className="space-y-2">
                 <p className="text-3xl font-black text-brand-navy">Global</p>
-                <p className="text-[10px] font-black uppercase text-brand-navy/30 tracking-widest">Client Base</p>
+                <p className="text-[11px] font-black uppercase text-brand-navy/30 tracking-widest">Client Base</p>
               </div>
               <div className="space-y-2">
                 <p className="text-3xl font-black text-brand-navy">8+ Sectors</p>
-                <p className="text-[10px] font-black uppercase text-brand-navy/30 tracking-widest">Industries Served</p>
+                <p className="text-[11px] font-black uppercase text-brand-navy/30 tracking-widest">Industries Served</p>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@ const About = () => {
       <section className="py-24 px-6 bg-brand-yellow" aria-label="Admirable Group">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 space-y-4">
-            <p className="text-[10px] font-black uppercase tracking-widest text-brand-navy/50">Our Parent Company</p>
+            <p className="text-[11px] font-black uppercase tracking-widest text-brand-navy/50">Our Parent Company</p>
             <h2 className="text-4xl font-black uppercase tracking-tighter text-brand-navy">A Unit of Admirable Group</h2>
             <p className="text-lg font-medium text-brand-navy/70 leading-relaxed max-w-xl">
               GP Mercatus operates under the Admirable Group — a certified and trusted organisation known for excellence across multiple business verticals. This backing ensures every client engagement is handled with the highest professional standards, accountability, and long-term commitment.
@@ -165,10 +165,10 @@ const About = () => {
                     <value.icon size={28} />
                   </div>
                   <h3 className="text-2xl font-black uppercase tracking-tighter leading-none">{value.title}</h3>
-                  <p className="text-brand-navy/60 leading-relaxed font-medium text-sm">{value.text}</p>
+                  <p className="text-brand-navy/60 leading-relaxed font-medium text-[18px]">{value.text}</p>
                   <ul className="space-y-3 pt-4 border-t border-brand-navy/5">
                     {value.points.map(item => (
-                      <li key={item} className="flex items-center gap-3 text-[10px] font-black uppercase tracking-widest text-brand-navy/40">
+                      <li key={item} className="flex items-center gap-3 text-[11px] font-black uppercase tracking-widest text-brand-navy/40">
                         <CheckCircle2 size={14} className="text-brand-yellow" /> {item}
                       </li>
                     ))}
