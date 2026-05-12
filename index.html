@@ -2,37 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google tag (gtag.js) — placed immediately after <head> as required -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-H1FBH1N7XC"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-H1FBH1N7XC");
-    </script>
+    <!-- Mobile Viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
 
     <!-- Primary SEO -->
     <title>
       GP Mercatus – Global Digital Marketing Agency | Performance, SEO & Social
       Media
     </title>
+
     <meta
       name="description"
-      content="GP Mercatus is a full-service global digital marketing agency. We help brands worldwide grow through performance ads, SEO, social media marketing, creative strategy, and data-driven campaigns. A unit of Admirable Group."
+      content="GP Mercatus is a full-service global digital marketing agency helping brands grow through SEO, performance marketing, social media, and creative campaigns."
     />
+
     <meta
       name="keywords"
-      content="digital marketing agency, global marketing agency, performance marketing, SEO agency, social media marketing, Google Ads, Meta Ads, content marketing, brand strategy, GP Mercatus"
+      content="digital marketing agency, SEO agency, performance marketing, social media marketing, Google Ads, Meta Ads"
     />
-    <meta name="author" content="GP Mercatus – Admirable Group" />
+
+    <meta name="author" content="GP Mercatus" />
+
+    <meta name="robots" content="index, follow" />
+
     <link rel="canonical" href="https://www.gpmercatus.in/" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font Optimization -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+    <!-- Preload Hero Image -->
+    <link rel="preload" as="image" href="/hero.webp" fetchpriority="high" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -41,81 +65,85 @@
       property="og:title"
       content="GP Mercatus – Global Digital Marketing Agency"
     />
+
     <meta
       property="og:description"
-      content="We help brands worldwide grow through performance marketing, SEO, social media, and creative strategy. A unit of Admirable Group."
+      content="Performance marketing, SEO, and social media strategies for global brands."
     />
+
     <meta
       property="og:image"
-      content="https://www.gpmercatus.in/og-image.jpg"
+      content="https://www.gpmercatus.in/og-image.webp"
     />
-    <meta property="og:site_name" content="GP Mercatus" />
-    <meta property="og:locale" content="en_US" />
 
-    <!-- Twitter Card -->
+    <meta property="og:site_name" content="GP Mercatus" />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@gpmercatus" />
+
     <meta
       name="twitter:title"
       content="GP Mercatus – Global Digital Marketing Agency"
     />
+
     <meta
       name="twitter:description"
-      content="Performance marketing, SEO, social media, and creative strategy for global brands. A unit of Admirable Group."
+      content="SEO, social media, and performance marketing solutions."
     />
+
     <meta
       name="twitter:image"
-      content="https://www.gpmercatus.in/og-image.jpg"
+      content="https://www.gpmercatus.in/og-image.webp"
     />
 
-    <!-- Robots -->
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-
-    <!-- JSON-LD Structured Data -->
+    <!-- Structured Data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "GP Mercatus",
-        "alternateName": "GP Mercatus Advertising Solutions",
-        "description": "Full-service global digital marketing agency. A unit of Admirable Group.",
         "url": "https://www.gpmercatus.in",
+        "logo": "https://www.gpmercatus.in/logo.webp",
         "telephone": "+91-8800426115",
         "email": "support@gpmercatus.in",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "RZ-7A/18, Raj Nagar II, Old Mehrauli Road",
-          "addressLocality": "New Delhi",
-          "postalCode": "110077",
-          "addressCountry": "IN"
-        },
-        "areaServed": "Worldwide",
+        "description": "Global digital marketing agency specializing in SEO, performance marketing, and branding.",
         "sameAs": [
           "https://www.instagram.com/gpmercatus",
           "https://www.facebook.com/gpmercatus",
           "https://www.linkedin.com/company/gpmercatus"
-        ],
-        "knowsAbout": [
-          "Digital Marketing",
-          "SEO",
-          "Social Media Marketing",
-          "Performance Advertising",
-          "Content Marketing",
-          "Brand Strategy"
         ]
       }
     </script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Delayed Google Analytics -->
+    <script>
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          const script = document.createElement("script");
+          script.src =
+            "https://www.googletagmanager.com/gtag/js?id=G-H1FBH1N7XC";
+          script.async = true;
+          document.head.appendChild(script);
+
+          window.dataLayer = window.dataLayer || [];
+
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+
+          window.gtag = gtag;
+
+          gtag("js", new Date());
+          gtag("config", "G-H1FBH1N7XC");
+        }, 3000);
+      });
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- Main App -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
