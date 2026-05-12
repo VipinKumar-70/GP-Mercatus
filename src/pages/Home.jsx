@@ -23,6 +23,7 @@ import { SectionTitle } from "../components/ui/SectionTitle";
 import { Card } from "../components/ui/Card";
 import { Link } from "react-router-dom";
 import { cn } from "../lib/utils";
+import HeroImg from "../assets/hero-img.webp";
 
 const Home = () => {
   const { scrollY } = useScroll();
@@ -129,7 +130,10 @@ const Home = () => {
               className="flex flex-wrap gap-4 pt-4"
             >
               <Button size="xl" variant="yellow" className="group">
-                <Link to="/contact#contactform" className="flex items-center gap-2">
+                <Link
+                  to="/contact#contactform"
+                  className="flex items-center gap-2"
+                >
                   Start a Free Consultation{" "}
                   <ArrowRight className="group-hover:translate-x-2 transition-transform" />
                 </Link>
@@ -146,21 +150,27 @@ const Home = () => {
               className="flex items-center gap-8 pt-12 border-t border-brand-navy/5"
             >
               <div>
-                <p className="text-3xl font-black leading-none">200+</p>
+                <p className="text-xl md:text-3xl font-black leading-none">
+                  200+
+                </p>
                 <p className="text-[10px] font-black uppercase tracking-widest text-brand-navy/40 mt-1">
                   Campaigns Delivered
                 </p>
               </div>
               <div className="w-px h-10 bg-brand-navy/10"></div>
               <div>
-                <p className="text-3xl font-black leading-none">8+</p>
+                <p className="text-xl md:text-3xl font-black leading-none">
+                  8+
+                </p>
                 <p className="text-[10px] font-black uppercase tracking-widest text-brand-navy/40 mt-1">
                   Industries Served
                 </p>
               </div>
               <div className="w-px h-10 bg-brand-navy/10"></div>
               <div>
-                <p className="text-3xl font-black leading-none">Global</p>
+                <p className="text-xl md:text-3xl font-black leading-none">
+                  Global
+                </p>
                 <p className="text-[10px] font-black uppercase tracking-widest text-brand-navy/40 mt-1">
                   Reach
                 </p>
@@ -168,13 +178,13 @@ const Home = () => {
             </motion.div>
           </div>
 
-          <div className="relative">
+          <div className="relative hidden md:block">
             <motion.div
               style={{ y: y1 }}
               className="relative z-10 rounded-[4rem] overflow-hidden shadow-2xl rotate-3 bg-brand-navy group"
             >
               <img
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop"
+                src={HeroImg}
                 alt="GP Mercatus digital marketing performance dashboard"
                 loading="eager"
                 className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
@@ -476,9 +486,7 @@ const Home = () => {
                     <p className="font-black text-xl text-white">
                       {item.label}
                     </p>
-                    <p className="text-sm text-white/40 mt-0.5">
-                      {item.sub}
-                    </p>
+                    <p className="text-sm text-white/40 mt-0.5">{item.sub}</p>
                   </div>
                 </div>
               ))}
