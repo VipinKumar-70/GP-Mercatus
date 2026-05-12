@@ -609,7 +609,7 @@ const Home = () => {
               </Button>
             </div>
             <p className="text-xs font-black text-brand-navy/40 uppercase tracking-[0.3em]">
-              support@gpmercatus.in · +91-8826906159 · www.gpmercatus.in
+              support@gpmercatus.in · +91-8800426115 · www.gpmercatus.in
             </p>
           </div>
         </div>

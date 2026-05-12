@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 2, duration: 0.5 }}
-        href="https://wa.me/918826906159?text=Hi%20GP%20Mercatus%2C%20I%20would%20like%20to%20discuss%20digital%20marketing%20for%20my%20brand."
+        href="https://wa.me/918800426115?text=Hi%20GP%20Mercatus%2C%20I%20would%20like%20to%20discuss%20digital%20marketing%20for%20my%20brand."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat with GP Mercatus on WhatsApp"

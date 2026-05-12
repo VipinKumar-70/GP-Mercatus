@@ -379,7 +379,7 @@ const Services = () => {
             <Link to="/contact">Get Free Strategy Consultation</Link>
           </Button>
           <p className="text-xs font-black uppercase tracking-[0.4em] opacity-40">
-            support@gpmercatus.in · +91-8826906159
+            support@gpmercatus.in · +91-8800426115
           </p>
         </div>
       </section>

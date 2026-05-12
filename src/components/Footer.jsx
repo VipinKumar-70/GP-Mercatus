@@ -142,13 +142,13 @@ const Footer = () => {
                   support@gpmercatus.in
                 </p>
               </a>
-              <a href="tel:+918826906159" className="flex gap-4 group">
+              <a href="tel:+918800426115" className="flex gap-4 group">
                 <Phone
                   className="text-brand-yellow flex-shrink-0 group-hover:scale-110 transition-transform"
                   size={18}
                 />
                 <p className="text-sm font-bold text-white/60 group-hover:text-white transition-colors">
-                  +91-8826906159
+                  +91-8800426115
                 </p>
               </a>
               <a href="https://www.gpmercatus.in" className="flex gap-4 group">

@@ -169,8 +169,8 @@ const Contact = () => {
                     {
                       icon: Phone,
                       label: "Phone / WhatsApp",
-                      val: "+91-8826906159",
-                      href: "tel:+918826906159",
+                      val: "+91-8800426115",
+                      href: "tel:+918800426115",
                     },
                     {
                       icon: Globe,
@@ -222,7 +222,7 @@ const Contact = () => {
                   hours.
                 </p>
                 <a
-                  href="https://wa.me/918826906159?text=Hi%20GP%20Mercatus%2C%20I%20would%20like%20to%20discuss%20digital%20marketing%20for%20my%20brand."
+                  href="https://wa.me/918800426115?text=Hi%20GP%20Mercatus%2C%20I%20would%20like%20to%20discuss%20digital%20marketing%20for%20my%20brand."
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() =>
