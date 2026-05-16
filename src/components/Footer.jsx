@@ -178,12 +178,16 @@ const Footer = () => {
             Reserved.
           </p>
           <div className="flex gap-8">
-            <span className="cursor-default hover:text-white transition-colors">
-              Privacy Policy
-            </span>
-            <span className="cursor-default hover:text-white transition-colors">
-              Terms of Service
-            </span>
+            <Link to="policies">
+              <span className="cursor-default hover:text-white transition-colors">
+                Privacy Policy
+              </span>
+            </Link>
+            <Link to="termsandcondition">
+              <span className="cursor-default hover:text-white transition-colors">
+                Terms of Service
+              </span>
+            </Link>
           </div>
         </div>
       </div>
